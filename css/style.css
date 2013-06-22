@@ -1,0 +1,20 @@
+/* stylesheet for IconsThreeD */
+body 
+{
+    font-family: Monospace;
+    font-weight: bold;
+    background-color: #ccc;
+    margin:0;
+    overflow: hidden;
+}
+.fineprint {
+    font-size: 8px;
+    position:absolute;
+    bottom: 10px;
+    margin-left: 25%;  
+}
+/* canvas margin and border are reflected in javascript, see js/IconsThreeD.js */
+canvas {
+    border:1px solid green;
+    margin: 10px;
+}
